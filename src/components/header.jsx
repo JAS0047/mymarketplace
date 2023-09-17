@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Navlist from './navlist'
+import HeaderNavList from './headerNavList'
 const Header = () => {
     const [data, setData]=useState()
   return (
@@ -8,8 +8,8 @@ const Header = () => {
       <h1 className="text-2xl font-semibold"> 
       Logo Here
       </h1>
-      {/* navlist */}
-      <div ><Navlist/></div>
+      {/* Header Nav List */}
+      <div ><HeaderNavList/></div>
       
       </div>
   )

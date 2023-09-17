@@ -1,12 +1,15 @@
-import React from 'react'
-import Navlist from './navlist'
+import React, { useState } from 'react'
+import FooterNavList from './footerNavList'
 
-const  Footer = () => {
+const Footer = () => {
+    const [data, setData]=useState()
   return (
-    <div className='pt-6'>
-      <Navlist />
-    </div>
+    <div className='p-6 gap-6 grid grid-cols-1 place-items-center'>
+      {/* Header Nav List */}
+      <div ><FooterNavList/></div>
+      
+      </div>
   )
 }
 
-export default Footer
+export default  Footer
