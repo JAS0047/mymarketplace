@@ -17,7 +17,7 @@ function Campaigns() {
     <div className="max-w-4x">
 
       {/* Header at the center top */}
-      <h1 className="text-xl font-semibold text-center">COLLECTION 17</h1>
+      <h1 className="text-xl font-semibold text-center mb-5">COLLECTION 17</h1>
 
       {/* Sliders */}
       <div>

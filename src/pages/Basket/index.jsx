@@ -26,10 +26,10 @@ const Basket = () => {
 
                 <tbody>
                     {data.map(row => (
-                        <tr key={row.productImg} className="h-15 border-gray-300 border-b bg-blue-500">
+                        <tr key={row.productImg} className="h-15 border-gray-300 border-b">
                             <div>
-                                <td className="pl-14 text-sm pr-6 whitespace-no-wrap text-gray-800 tracking-normal  bg-red-500 leading-4"><img src={row.productImg} className="w-20 h-20 " /></td>
-                                <td className="pl-14 text-sm pr-6 whitespace-no-wrap text-gray-800 tracking-normal leading-4"><div className=" mb-20 border border-red-700">
+                                <td className="pl-14 text-sm pr-6 whitespace-no-wrap text-gray-800 tracking-normal leading-4"><img src={row.productImg} className="w-20 h-20 " /></td>
+                                <td className="pl-14 text-sm pr-6 whitespace-no-wrap text-gray-800 tracking-normal leading-4"><div className=" mb-20">
                                     <div>Product name</div>
                                     <div><button className="underline">
                                         x remove
