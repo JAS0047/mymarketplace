@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Footer from './components/footer.jsx'
 import Header from './components/header.jsx'
-import Stocklist from './pages/Stocklist'
+import Basket from './pages/Basket'
+// import Campaigns from './pages/Campaigns'
+// import Stocklist from './pages/Stocklist'
 // import ContactUs from './pages/ContactUs'
 // import Jewelry from './pages/Jewelry/index.jsx'
 // import ProductPage from './pages/ProductPage/index.jsx'
@@ -21,7 +23,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <About /> */}
     {/* <Values /> */}
     {/* <ContactUs /> */}
-    <Stocklist />
+    {/* <Stocklist /> */}
+    {/* <Campaigns /> */}
+    <Basket />
+
 
     <Footer />
   </React.StrictMode>,
